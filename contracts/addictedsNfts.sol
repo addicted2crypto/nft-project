@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
 contract AddictedsNFTs is ERC721 {
 
-    constructor() ERC721("Addicted's NFTs", "Addicted2NFT's") {
+    constructor() ERC721("Addicteds NFTs", "Addicted2NFTs") {
         
         _mint(msg.sender, 1);
         _mint(msg.sender, 2);
